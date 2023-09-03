@@ -1,0 +1,60 @@
+/* Estilos generales */
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f8f9fa;
+  background: linear-gradient(to bottom, #c4dafa, #f1d7ff, #f2e8e1);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+h2{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-brand{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fa-dragon{
+  color: blue;
+}
+
+
+/* Estilos del buscador */
+input[type="text"] {
+  width: 45%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Estilos de las tarjetas de Pokémon */
+.card-title {
+  font-size: 1.5rem;
+  width: 70rem;
+  margin: 0;
+}
+
+/* Estilos para la fila de las tarjetas */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.col-md-4 {
+  padding: 0 16px;
+  flex: 0 0 33.333%;
+  max-width: 33.333%;
+}
+
